@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+}
+form{
+    width: 80%;
+    margin: auto;
+    box-shadow: 1px 1px 10px 1px gray;
+    padding: 10px;
+    padding-right: 5%;
+    margin-top: 5%;
+    text-align: center;
+}
+form p{
+    color: blue;
+    text-align: left;
+}
+.form-control{
+    margin: 10px;
+    border-radius: 10px;
+    max-width: 70%;
+}
+.inp{
+    display: flex;
+    justify-content: space-around;   
+    text-align: left;
+}
+.inp label{
+    margin-top: 2%;
+    width: 150px;
+}
+@media only screen and (max-width: 500px) {
+    form{
+        width: 95%;
+    }
+    .inp label{
+        margin-top: 7%;
+        font-size: 12px;
+    }
+    .inp input{
+        font-size: 12px;
+        border-radius: 10px;
+    }
+
+}

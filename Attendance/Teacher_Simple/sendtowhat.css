@@ -1,0 +1,88 @@
+.nav li {
+  margin-right: -4.5%;
+  margin-bottom: 1%;
+}
+
+.col-sm-3 .well,
+.col-sm-9 .well,.col-sm-7 .well {
+  background-color: white;
+  box-shadow: 0px 1px 5px 0px gray;
+}
+.well h4 {
+  text-align: left;
+  color: blue;
+}
+.well b,.well label{
+  color: red;
+}
+h4 img{
+  height: 50px;
+  margin-left: 5px;
+  border-radius: 50%;
+}
+.member {
+  width: 100%;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  box-shadow: 1px 1px 1px 1px gray;
+}
+.member2 {
+  width: 90%;
+  background-color: white;
+  color: black;
+  padding: 8px;
+  margin-left: -10%;
+  box-shadow: 0px 0px 3px 0px gray;
+}
+form input {
+  background-color: rgb(6, 112, 212);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  width: 60%;
+}
+.data{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.data2 video{
+  box-shadow: 0px 0px 10px 0px gray;
+}
+
+
+
+@media only screen and (max-width:1200px) {
+  .data{
+      display: block;
+  }
+  .data2 video{
+      width: 400px;
+      margin-top: 5%;
+  }
+  th {
+    font-size: 1vh;
+  }
+  td {
+    font-size: 1vh;
+    font-weight: lighter;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .data{
+    display: block;
+}
+.data2 video{
+    display: none;
+}
+  th {
+    font-size: 0.5vh;
+  }
+  td {
+    font-size: 0.5vh;
+    font-weight: lighter;
+  }
+}
